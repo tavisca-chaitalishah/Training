@@ -1,0 +1,6 @@
+D:\Training\TriFibonacci\TriFibonacci\bin\Debug\TriFibonacci.exe.config
+D:\Training\TriFibonacci\TriFibonacci\bin\Debug\TriFibonacci.exe
+D:\Training\TriFibonacci\TriFibonacci\bin\Debug\TriFibonacci.pdb
+D:\Training\TriFibonacci\TriFibonacci\obj\Debug\TriFibonacci.csprojResolveAssemblyReference.cache
+D:\Training\TriFibonacci\TriFibonacci\obj\Debug\TriFibonacci.exe
+D:\Training\TriFibonacci\TriFibonacci\obj\Debug\TriFibonacci.pdb
