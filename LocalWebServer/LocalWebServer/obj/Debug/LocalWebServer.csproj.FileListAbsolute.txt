@@ -1,0 +1,7 @@
+D:\gitRepo\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.exe.config
+D:\gitRepo\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.exe.config
+D:\gitRepo\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.csprojResolveAssemblyReference.cache
+D:\gitRepo\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.exe
+D:\gitRepo\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.pdb
+D:\gitRepo\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.exe
+D:\gitRepo\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.pdb
