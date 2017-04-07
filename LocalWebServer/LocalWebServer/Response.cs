@@ -105,11 +105,35 @@ namespace LocalWebServer
             return new Response("404 Page Not Found ", "html/text", d);
         }
 
+        //public void Post(NetworkStream stream)
+        //{
+        //    StreamWriter writer = new StreamWriter(stream);
+        //    writer.WriteLine(string.Format($"{0}{1}\r\nServer: {2} \r\nContent-Type:{3}\r\nAccept-Ranges: bytes\r\nContent-Length: {4}\r\n", HttpServer.Version, status, HttpServer.Name, mine, data.Length));
+        //    Console.WriteLine($"{0}{1}\r\nServer: {2} \r\nContent-Type:{3}\r\nAccept-Ranges: bytes\r\nContent-Length: {4}\r\n", HttpServer.Version, status, HttpServer.Name, mine, data.Length);
+        //    stream.Write(data, 0, data.Length);
+        //}
+
         public void Post(NetworkStream stream)
         {
-            StreamWriter writer = new StreamWriter(stream);
-            writer.WriteLine(string.Format("", HttpServer.Version, HttpServer.Name, mine, data.Length));
-            stream.Write(data, 0, data.Length);
+            try
+            {
+                StreamWriter writer = new StreamWriter(stream);
+                writer.Write(HttpServer.Version);
+                writer.Write(Environment.NewLine);
+                writer.Write("Content-Type: text/html; charset=utf-8");
+                writer.Write(Environment.NewLine);
+                writer.Write("Content-Length: " + data.Length);
+                writer.Write(Environment.NewLine);
+                writer.Write(Environment.NewLine);
+                writer.Flush();
+
+                stream.Write(data, 0, data.Length);
+            }
+            catch (Exception)
+            {
+
+            }
+
         }
     }
 }

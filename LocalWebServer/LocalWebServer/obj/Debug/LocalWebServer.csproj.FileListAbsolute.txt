@@ -5,3 +5,9 @@ D:\gitRepo\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.exe
 D:\gitRepo\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.pdb
 D:\gitRepo\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.exe
 D:\gitRepo\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.pdb
+D:\gitRepo\try\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.exe.config
+D:\gitRepo\try\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.exe
+D:\gitRepo\try\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.pdb
+D:\gitRepo\try\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.exe
+D:\gitRepo\try\Training\LocalWebServer\LocalWebServer\bin\Debug\LocalWebServer.pdb
+D:\gitRepo\try\Training\LocalWebServer\LocalWebServer\obj\Debug\LocalWebServer.csprojResolveAssemblyReference.cache
